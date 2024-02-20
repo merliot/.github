@@ -6,9 +6,9 @@ Merliot is an innovative IoT platform designed for privacy, scalability, and fau
 
 **Non-Centralized Control:** Unlike traditional IoT platforms, Merliot offers a non-centralized approach. Each user maintains control over their devices without any intermediary or third-party access to device data.
 
-Curious about Merliot? Try the [Demo](https://www.merliot.io/try-demo) for free.  (An account is required on [Koyeb](koyeb.com)).
+Curious about Merliot? Try the [demo](https://www.merliot.io/try-the-demo) for free[^1].  The demo runs a Merliot hub on the Internet.
 
-Alternatively, you can run the Demo using docker:
+Alternatively, you can run the demo using docker:
 
 ```
 docker pull ghcr.io/merliot/hub
@@ -16,3 +16,15 @@ docker run -p 8000:8000 ghcr.io/merliot/hub
 ```
 
 Browse to http://\<host\>:8000 to view the hub and configure devices.
+
+#### Learn More
+
+##### Architecture
+- Security
+
+##### Running
+- Run on Koyeb
+- Run on Docker
+- Run from Source
+
+[^1]  An account is required on [Koyeb](koyeb.com).
