@@ -1,12 +1,12 @@
-# Merliot
+### Merliot: A Distributed, Non-Centralized IoT Platform
 
-Merliot is a distributed, non-centralized IoT platform written in [Go](go.dev) and [TinyGo](tinygo.org).
+Merliot is an innovative IoT platform designed for privacy, scalability, and fault tolerance, written in [Go](go.dev) and [TinyGo](tinygo.org).
 
-**Distributed** as in your devices are independent of everyone elses, making the plaform scalable and fault-tolerant.
+**Distributed Architecture:** Merliot employs a distributed architecture where each device operates independently, ensuring scalability and fault tolerance.
 
-**Non-centralized** as in there is no central control; each user's devices are user-controlled.  There is no third party between you and your devices.  And no third-party access to your device data.
+**Non-Centralized Control:** Unlike traditional IoT platforms, Merliot offers a non-centralized approach. Each user maintains control over their devices without any intermediary or third-party access to device data.
 
-Scared?  You can try the [Demo](https://www.merliot.io/try-demo).  It's Free to try, but requires an account on [Koyeb](koyeb.com).
+Curious about Merliot? Try the [Demo](https://www.merliot.io/try-demo) for free.  (An account is required on [Koyeb](koyeb.com)).
 
 Alternatively, you can run the Demo using docker:
 
