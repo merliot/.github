@@ -26,6 +26,13 @@ Merliot can target microcontrollers or SBC:
 - [Adafruit PyPortal](https://www.adafruit.com/product/4116)
 - [Raspberry PI](https://www.raspberrypi.com/) (not Pico)
 
+### Example Devices
+
+- [Device Hub](https://github.com/merliot/hub)
+- [Relay Controller](https://github.com/merliot/relays)
+- [Garage Door Opener](https://github.com/merliot/garage)
+- [Skeleton Device](https://github.com/merliot/skeleton) (template for new devices)
+
 ### Learn More
 
 #### Running
