@@ -19,7 +19,7 @@ Browse to http://\<host\>:8000 to view the hub and configure devices.
 
 ### Supported Targets
 
-Merliot can target microcontrollers or SBC:
+Merliot can target microcontrollers or SBCs:
 
 - [Arduino Nano rp2040 Connect](https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect)
 - [Seeed Wioterminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
