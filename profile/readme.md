@@ -31,6 +31,7 @@ Merliot can target microcontrollers or SBC:
 - [Device Hub](https://github.com/merliot/hub)
 - [Relay Controller](https://github.com/merliot/relays)
 - [Garage Door Opener](https://github.com/merliot/garage)
+- [MorningStar Solar Charge Controller](https://www.morningstarcorp.com/products/prostar/)
 - [Skeleton Device](https://github.com/merliot/skeleton) (template for new devices)
 
 ### Learn More
