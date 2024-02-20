@@ -1,4 +1,4 @@
-### Merliot: A Distributed, Non-Centralized IoT Platform
+## Merliot: A Distributed, Non-Centralized IoT Platform
 
 Merliot is an innovative IoT platform designed for privacy, scalability, and fault tolerance, written in [Go](go.dev) and [TinyGo](tinygo.org).
 
@@ -17,14 +17,23 @@ docker run -p 8000:8000 ghcr.io/merliot/hub
 
 Browse to http://\<host\>:8000 to view the hub and configure devices.
 
-#### Learn More
+### Supported Targets
 
-##### Running
+Merliot can target microcontrollers or SBC:
+
+- [Arduino Nano rp2040 Connect](https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect)
+- [Seeed Wioterminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
+- [Adafruit PyPortal](https://www.adafruit.com/product/4116)
+- [Raspberry PI](https://www.raspberrypi.com/) (not Pico)
+
+### Learn More
+
+#### Running
 - Run on Docker
 - Run on Koyeb
 - Run from Source
 
-##### Architecture
+#### Architecture
 - Security
 
 
