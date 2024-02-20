@@ -1,1 +1,3 @@
-Hello
+# Merliot
+
+![](images/gopher-cloud.png)
