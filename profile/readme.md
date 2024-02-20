@@ -27,4 +27,4 @@ Browse to http://\<host\>:8000 to view the hub and configure devices.
 - Run on Docker
 - Run from Source
 
-[^1]  An account is required on [Koyeb](koyeb.com).
+[^1]: An account is required on [Koyeb](koyeb.com).
