@@ -6,7 +6,7 @@ Merliot is an innovative IoT platform designed for privacy, scalability, and fau
 
 **Non-Centralized Control:** Unlike traditional IoT platforms, Merliot offers a non-centralized approach. Each user maintains control over their devices without any intermediary or third-party access to device data, ensuring privacy.
 
-Curious about Merliot? Try the [demo](https://www.merliot.io/try-the-demo) for free[^1].  The demo runs a Merliot hub on the Internet.
+Curious about Merliot? Try the [demo](https://www.merliot.io/try-the-demo) for free[^1].  The demo runs a Merliot [hub](https://github.com/merliot/hub) on the Internet.
 
 Alternatively, you can run the demo using docker:
 
