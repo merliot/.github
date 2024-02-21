@@ -1,8 +1,6 @@
-## Merliot: A Distributed, Non-Centralized IoT Platform
+## Merliot: A Private, Non-Centralized IoT Platform
 
-Merliot is an innovative IoT platform designed for privacy, scalability, and fault tolerance, written in [Go](go.dev) and [TinyGo](tinygo.org).
-
-**Distributed Architecture:** Merliot employs a distributed architecture where each device operates independently, ensuring scalability and fault tolerance.
+Merliot is an innovative IoT platform designed for privacy, written in [Go](go.dev) and [TinyGo](tinygo.org).
 
 **Non-Centralized Control:** Unlike traditional IoT platforms, Merliot offers a non-centralized approach. Each user maintains control over their devices without any intermediary or third-party access to device data, ensuring privacy.
 
@@ -15,7 +13,7 @@ docker pull ghcr.io/merliot/hub
 docker run -p 8000:8000 ghcr.io/merliot/hub
 ```
 
-Browse to http://\<host\>:8000 to view the hub and configure devices.
+Browse to http://\<host\>:8000 to view the hub and configure devices[^2].
 
 ### Supported Targets
 
@@ -47,3 +45,4 @@ Merliot can target microcontrollers or SBCs:
 
 
 [^1]: An account is required on [Koyeb](koyeb.com).
+[^2]: Changes are not saved in demo mode.  To save changes, add Github credientials to the hub.
