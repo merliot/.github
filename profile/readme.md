@@ -4,25 +4,27 @@ Merliot is an innovative IoT platform designed for privacy, written in [Go](go.d
 
 **Non-Centralized Control:** Unlike traditional IoT platforms, Merliot offers a non-centralized approach. Each user maintains control over their devices without any intermediary or third-party access to device data, ensuring privacy.
 
-Curious about Merliot? Try the [demo](https://www.merliot.io/try-the-demo) for free[^1].  The demo runs a Merliot [hub](https://github.com/merliot/hub) on the Internet.
+Curious about Merliot?  Click the button to try the [Merliot Hub](https://github.com/merliot/hub) for Free[^1].
 
-Alternatively, you can run the demo using docker:
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=docker&image=merliot/hub&name=hub&env[WS_SCHEME]=wss://)
+
+Alternatively, you can try it with using docker:
 
 ```
 docker pull merliot/hub
 docker run -p 80:8000 merliot/hub
 ```
 
-Browse to http://\<host\> to view the hub and configure devices[^2].
+Browse to http://\<host\> to view the hub and configure devices.
 
 ### Supported Targets
 
-Merliot can target microcontrollers or SBCs:
+Merliot can target several microcontrollers and SBCs:
 
+- [Raspberry PI](https://www.raspberrypi.com/) (not Pico)
 - [Arduino Nano rp2040 Connect](https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect)
 - [Seeed Wioterminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
 - [Adafruit PyPortal](https://www.adafruit.com/product/4116)
-- [Raspberry PI](https://www.raspberrypi.com/) (not Pico)
 
 ### Example Devices
 
@@ -32,16 +34,4 @@ Merliot can target microcontrollers or SBCs:
 - [MorningStar Solar Charge Controller](https://github.com/merliot/ps30m) (Modbus)
 - [Skeleton Device](https://github.com/merliot/skeleton) (template for new devices)
 
-### Learn More
-
-#### Running
-- Run on Docker
-- Run on Koyeb
-- Run from Source
-
-#### Architecture
-- Security
-
-
-
-[^1]: An account is required on [Koyeb](koyeb.com).
+[^1]: An account is required on [Koyeb](koyeb.com).  Koyeb has a Free tier allowing one free virtual machine.  That's all we need to run Merliot Hub.
