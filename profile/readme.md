@@ -9,11 +9,11 @@ Curious about Merliot? Try the [demo](https://www.merliot.io/try-the-demo) for f
 Alternatively, you can run the demo using docker:
 
 ```
-docker pull ghcr.io/merliot/hub
-docker run -p 8000:8000 ghcr.io/merliot/hub
+docker pull merliot/hub
+docker run -p 80:8000 merliot/hub
 ```
 
-Browse to http://\<host\>:8000 to view the hub and configure devices[^2].
+Browse to http://\<host\> to view the hub and configure devices[^2].
 
 ### Supported Targets
 
@@ -45,4 +45,3 @@ Merliot can target microcontrollers or SBCs:
 
 
 [^1]: An account is required on [Koyeb](koyeb.com).
-[^2]: Changes are not saved in demo mode.  To save changes, add Github credientials to the hub.
