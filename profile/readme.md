@@ -4,7 +4,7 @@ Merliot is an innovative IoT platform designed for privacy, written in [Go](go.d
 
 **Non-Centralized Control:** Unlike traditional IoT platforms, Merliot offers a non-centralized approach. Each user maintains control over their devices without any intermediary or third-party access to device data, ensuring privacy.
 
-Curious about Merliot?  Click the button to try the [Merliot Hub](https://github.com/merliot/hub) for Free[^1].
+Curious about Merliot?  Click the button to try [Merliot Hub](https://github.com/merliot/hub) for Free[^1].
 
 [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=docker&image=merliot/hub&name=hub&env[WS_SCHEME]=wss://)
 
