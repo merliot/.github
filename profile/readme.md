@@ -1,4 +1,4 @@
-## Merliot: A Private, Non-Centralized IoT Platform
+## Merliot: A Private, Decentralized IoT Platform
 
 Merliot is an innovative IoT platform designed for privacy, written in [Go](go.dev) and [TinyGo](tinygo.org).
 
