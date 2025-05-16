@@ -1,2 +1,2 @@
 ## Merliot
-### Private Device Hub
+### Device Hub
